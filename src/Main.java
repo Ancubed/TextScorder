@@ -162,7 +162,6 @@ class TextScorder {
 public class Main {
     public static void main(String[] args) {
         String fileName = "text.txt";
-        //String fileName = args[0];
         TextScorder txtscrd = new TextScorder(fileName);
         txtscrd.getResult(null);
     }
